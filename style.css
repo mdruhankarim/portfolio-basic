@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --font-color: white;
+    --second-font-color: #FD6F00;
+    --background-color: #1E1E1E;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Rubik", sans-serif;
+    color: var(--font-color);
+
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.nav-bar {
+    padding: 70px 200px;
+}
+
+.nav-bar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-bar ul a {
+    font-size: 21px;
+    /* color: var(--font-color); */
+    text-decoration: none;
+}
+.nav-bar ul a:hover{
+    color: var(--second-font-color);
+}
+
+#home {
+    padding: 70px 500px 70px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-child h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 40px;
+    word-spacing: 5px;
+}
+
+.home-box button {
+    background-color: var(--second-font-color);
+    margin: 20px 20px 20px 0px;
+    font-size: 26px;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+}
+.home-box button:hover{
+    background-color: var(--font-color);
+    color: var(--second-font-color);
+    cursor: pointer;
+}
+
+.home-child-2 a img {
+    text-align: center;
+}
+
+.home-child-2 img {
+    border-radius: 10px;
+}
+
+.home-icon ul {
+    font-size: 1.5em;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+    i:hover{
+    color: var(--second-font-color);
+    }
+
+#about {
+    /* width: 100%; */
+    background-image: linear-gradient(160deg, #FFA62F 0%, #80D0C7 100%);
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience {
+    padding: 94px 0px 0px 200px;
+}
+
+.experience h3 {
+    font-size: 18px;
+    /* padding-top: 24px; */
+    font-weight: 400px;
+    font-style: italic;
+}
+
+.experience h1 {
+    font-size: 40px;
+    padding-top: 24px;
+}
+
+.experience p {
+    max-width: 540px;
+    padding-top: 24px;
+    font-size: 18px;
+}
+
+.first-year {
+    padding: 94px 200px 0px 0px;
+}
+
+.first-year ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.first-year2 h3 {
+    font-size: 36px;
+}
+
+.second-year {
+    padding: 0px 200px 0px 0px;
+}
+
+.second-year ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.second-year2 h3 {
+    font-size: 36px;
+}
+
+#projects {
+    height: 540px;
+    background-color: var(--background-color);
+}
+
+.myportfolio {
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: grid;
+    padding-top: 94px;
+}
+
+.myportfolio h1 {
+    font-size: 40px;
+}
+
+.myportfolio p {
+    max-width: 540px;
+    padding-top: 10px;
+    margin: auto;
+    font-size: 18px;
+    /* padding-top: 24px; */
+}
+
+.project-button {
+    text-align: center;
+    padding-top: 24px;
+    /* align-items: center; */
+}
+
+.project-button button {
+    background-color: var(--second-font-color);
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+}
+.project-button button:hover{
+    background-color: white;
+    color: var(--second-font-color);
+}
+
+#contact {
+    padding: 100px;
+    height: 540px;
+    background-color: var(--background-color);
+}
+
+.contact-child {
+    /* height: 540px; */
+    background-color: var(--second-font-color);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.reachout-me {
+    text-align: center;
+}
+
+.reachout-me p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.reachout-me h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.input-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-item input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: var(--second-font-color);
+    outline: none;
+    border-bottom: 2px solid #b66a33;
+    color: #ffffff;
+}
+
+.input-item input::placeholder {
+    color: var(--font-color);
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    /* padding: 20px; */
+    margin: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--second-font-color);
+    border-bottom: 2px solid #b66a33;
+    resize: none;
+    height: 100px;
+    color: var(--font-color);
+}
+
+textarea::placeholder {
+    color: var(--font-color);
+    font-size: 16px;
+}
+
+.input-file {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-file label {
+    color: var(--font-color);
+    padding: 10px;
+}
+.input-file label:hover{
+    cursor: pointer;
+    /* color: var(--background-color); */
+    background-color:var(--background-color) ;
+    /* margin: 10px; */
+    /* border-radius: 20px; */
+}
+
+.input-file input[type="file"] {
+    display: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #1E1E1E;
+    font-size: 16px;
+    cursor: pointer;
+    transition: var(--background-color) 0.3s;
+}
+
+.submit-button:hover {
+    background-color: var(--font-color);
+    color: var(--second-font-color);
+}
+
+footer {
+    height: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-bar {
+        padding: 20px ;
+    }
+    #home {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-child h1 {
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 30px;
+        word-spacing: 5px;
+    }
+    .home-box button {
+        background-color: var(--second-font-color);
+        margin: 10px 10px 20px 0px;
+        font-size: 26px;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+    }
+
+    .experience {
+        padding: 50px;
+    }
+    
+    .experience h3 {
+        font-size: 18px;
+        /* padding-top: 24px; */
+        font-weight: 400px;
+        font-style: italic;
+    }
+    
+    .experience h1 {
+        font-size: 30px;
+        padding-top: 24px;
+    }
+    
+    .experience p {
+        max-width: 100%;
+        padding-top: 24px;
+        font-size: 15px;
+    }
+    
+    .first-year {
+        padding: 94px 100px 0px 0px;
+    }
+    
+    .first-year ul {
+        font-size: 15px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+    }
+    
+    .first-year2 h3 {
+        font-size: 26px;
+    }
+    
+    .second-year {
+        padding: 0px 50px 0px 0px;
+    }
+    
+    .second-year ul {
+        font-size: 15px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    
+    .second-year2 h3 {
+        font-size: 26px;
+    }
+    
+    .myportfolio {
+        text-align: center;
+        padding-top: 74px;
+    }
+    
+    .myportfolio h1 {
+        font-size: 40px;
+    }
+    
+    .myportfolio p {
+        font-size: 18px;
+        padding-top: 24px;
+    }
+    
+    .project-button {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        text-align: center;
+        padding: 24px;
+    }
+    
+    .project-button button {
+        width: 300px;
+        background-color: var(--second-font-color);
+        font-size: 24px;
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+    }
+    #contact {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 200px;
+        height: 540px;
+        background-color: var(--background-color);
+    }
+    
+    .contact-child {
+        height: 540px;
+        width: 50%;
+        background-color: var(--second-font-color);
+        padding: 50px;
+        margin: 50px;
+        border-radius: 20px;
+    }
+    .reachout-me p {
+        font-size: 15px;
+        font-style: italic;
+    }
+    
+    .reachout-me h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .input-item input::placeholder {
+        color: var(--font-color);
+        font-size: 12px;
+    }
+    textarea::placeholder{
+        font-size: 12px;
+    }
+    .input-file{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .nav-bar {
+        padding: 10px ;
+    }
+    .nav-bar ul {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav-bar ul a{
+        font-size: 15px;
+    }
+    #home {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-child h1 {
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 20px;
+        word-spacing: 5px;
+    }
+    .home-box button {
+        background-color: var(--second-font-color);
+        margin: 5px 5px 10px 0px;
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+    }
+    i{
+        font-size: 15px;
+    }
+    #about{
+        height: 360px;
+    }
+    .experience {
+        padding: 30px;
+    }
+    
+    .experience h3 {
+        font-size: 18px;
+        /* padding-top: 24px; */
+        font-weight: 400px;
+        font-style: italic;
+    }
+    
+    .experience h1 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    
+    .experience p {
+        max-width: 100%;
+        padding-top: 15px;
+        font-size: 10px;
+    }
+    
+    .first-year {
+        padding: 60px 50px 0px 0px;
+    }
+    
+    .first-year ul {
+        font-size: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .first-year2 h3 {
+        font-size: 20px;
+    }
+    
+    .second-year {
+        padding: 0px 30px 0px 0px;
+    }
+    
+    .second-year ul {
+        font-size: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    
+    .second-year2 h3 {
+        font-size: 20px;
+    }
+    
+    .myportfolio {
+        text-align: center;
+        padding-top: 74px;
+    }
+    
+    .myportfolio h1 {
+        font-size: 30px;
+    }
+    
+    .myportfolio p {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    
+    .project-button {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        text-align: center;
+        padding: 24px;
+    }
+    
+    .project-button button {
+        width: 300px;
+        background-color: var(--second-font-color);
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+    }
+    #contact {
+        /* width: 100%; */
+        height: 360px;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 200px;
+        height: 540px;
+        background-color: var(--background-color);
+    }
+    
+    .contact-child {
+        height: 360px;
+        width: 50%;
+        background-color: var(--second-font-color);
+        padding: 50px;
+        margin: 50px;
+        border-radius: 20px;
+    }
+    .reachout-me p {
+        font-size: 15px;
+        font-style: italic;
+    }
+    
+    .reachout-me h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .input-item input::placeholder {
+        color: var(--font-color);
+        font-size: 8px;
+    }
+    textarea::placeholder{
+        font-size: 8px;
+    }
+    .input-file{
+        font-size: 12px;
+    }
+}
