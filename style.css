@@ -31,7 +31,6 @@ body {
 
 .nav-bar ul a {
     font-size: 21px;
-    /* color: var(--font-color); */
     text-decoration: none;
 }
 .nav-bar ul a:hover{
@@ -84,7 +83,6 @@ body {
     }
 
 #about {
-    /* width: 100%; */
     background-image: linear-gradient(160deg, #FFA62F 0%, #80D0C7 100%);
     height: 540px;
     display: flex;
@@ -97,7 +95,6 @@ body {
 
 .experience h3 {
     font-size: 18px;
-    /* padding-top: 24px; */
     font-weight: 400px;
     font-style: italic;
 }
@@ -152,8 +149,6 @@ body {
 
 .myportfolio {
     text-align: center;
-    /* justify-content: center; */
-    /* align-items: center; */
     display: grid;
     padding-top: 94px;
 }
@@ -167,13 +162,11 @@ body {
     padding-top: 10px;
     margin: auto;
     font-size: 18px;
-    /* padding-top: 24px; */
 }
 
 .project-button {
     text-align: center;
     padding-top: 24px;
-    /* align-items: center; */
 }
 
 .project-button button {
@@ -194,7 +187,6 @@ body {
 }
 
 .contact-child {
-    /* height: 540px; */
     background-color: var(--second-font-color);
     padding: 50px;
     margin: 50px;
@@ -239,7 +231,6 @@ body {
 
 textarea {
     width: 100%;
-    /* padding: 20px; */
     margin: 20px;
     border: none;
     outline: none;
@@ -266,10 +257,7 @@ textarea::placeholder {
 }
 .input-file label:hover{
     cursor: pointer;
-    /* color: var(--background-color); */
-    background-color:var(--background-color) ;
-    /* margin: 10px; */
-    /* border-radius: 20px; */
+    background-color:var(--background-color);
 }
 
 .input-file input[type="file"] {
@@ -329,7 +317,6 @@ footer {
     
     .experience h3 {
         font-size: 18px;
-        /* padding-top: 24px; */
         font-weight: 400px;
         font-style: italic;
     }
@@ -487,7 +474,6 @@ footer {
     
     .experience h3 {
         font-size: 18px;
-        /* padding-top: 24px; */
         font-weight: 400px;
         font-style: italic;
     }
@@ -566,7 +552,6 @@ footer {
         border-radius: 50px;
     }
     #contact {
-        /* width: 100%; */
         height: 360px;
         margin: 0px;
         padding: 0px;
